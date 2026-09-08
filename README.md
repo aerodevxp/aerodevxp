@@ -3,4 +3,4 @@ My name is Raph ⭐! I am a Cybersecurity Expert and Software Dev based in the c
 
 I have a College Diploma in Cybersecurity, the CompTIA Security+ Certification, and many projects. I first got into software development and automation in 2018 when I turned thirteen.
 
-Check out [my website 💫](https://aeroraph.dev) for more info! 
+Check out [my website 💫](https://aeroraph.dev) for more info about me and my projects!
