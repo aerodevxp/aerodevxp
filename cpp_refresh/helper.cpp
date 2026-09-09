@@ -38,3 +38,7 @@ bool getBoolUserInput(string question){
     }
     return res;
 }
+
+char stringToChar(string txt, int index){
+    return txt[index];
+}

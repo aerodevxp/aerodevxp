@@ -35,3 +35,27 @@ string caesar_cipher(string arg1, int key) {
     //cout << "\" ;;; Your input was " << arg1.size() << " characters long.\n";
     return result;
 }
+
+string custom_cipher1(string arg1, string key, string salt){
+    string work = arg1;
+    int saltInserted = 0;
+
+    for(int i = 0; i < arg1.size(); i++){
+        if(i % 2 == 0 && saltInserted < salt.size()){
+            string ins = {salt[saltInserted]};
+            work.insert(i, ins);
+            saltInserted += 1;
+        }
+    }
+
+    for (int i = 0; i < work.size(); i++) {
+        work[i] = to_string(int(int(work[i]) ^ int(key[i % key.size()])))[0];
+    }
+
+    return work;
+}
+
+string decrypt_custom_cipher1(string arg1, string key, string salt){
+
+    return "not yet written.";
+}

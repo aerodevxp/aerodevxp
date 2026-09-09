@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include "lib/hash/md5.h"
 #include <string>
